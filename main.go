@@ -130,6 +130,6 @@ func main() {
 	cache.Display()
 	fmt.Printf("HitRate:%.2f%%\n", cache.GithitRate())
 	fmt.Printf("MissRate:%.2f%%\n", 100-cache.GithitRate())
-	fmt.Printf("TotalRate:%.2f%%\n", cache.TotalCount)
+	fmt.Printf("TotalRate:%.2f%%\n", float64(cache.TotalCount))
 
 }
